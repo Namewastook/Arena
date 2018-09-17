@@ -1,0 +1,14 @@
+body{
+text-align: center;
+font-size: 20px;
+background-color: black;
+color: white;
+}
+
+#Second{
+    visibility: hidden;
+}
+
+#First{
+    visibility: hidden;
+}

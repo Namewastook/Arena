@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arena survival!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <h1>Survival arena!</h1>
+  <button type="submit"  onClick="refreshPage();">Reset The Arena!</button><br><br>
+
+
+  <select id="Ultra" onchange="run()">
+    <option value="">Select from the options below!</option>
+    <option value="Fighter">Fighter</option>
+    <option value="Rogue">Rogue</option>
+    <option value="Barbarian">Barbarian</option>
+    <option value="Dragon Slayer">Dragon Slayer</option>     
+</select>
+
+<br>
+
+<input type="text" id="First" placeholder="Select from above!"><br>
+
+<H1>VS.<H1>
+
+<select id="Mega" onchange="running()">
+    <option value="">Select from the options below!</option>
+    <option value="Kobold">Kobold</option>
+    <option value="Ninja">Ninja</option>
+    <option value="Goblin">Goblin</option>
+    <option value="Thug">Thug</option> 
+    <option value="Dragon">Dragon</option>     
+</select>
+
+<br>
+<input type="text" id="Second" placeholder="Select from above!"><br>
+
+<button id='Fight'>Click to start, and continue the battle until only one remains!</button>
+<br>
+
+    <script src="index.js"></script>
+</body>
+</html>
